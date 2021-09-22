@@ -1,19 +1,22 @@
-.homediv{
-    width: 80%;
-    margin: 60px 240px;
-    display: flex;
+.homediv {
+  width: 73%;
+  padding: 60px 180px;
+  display: flex;
+  background-color: beige;
+
 }
-.homepic{
-    width: 50%;
+.homepic {
+  width: 70%;
 }
 
-.homepic img{
-    height: 300px;
-    width: 500px;
-    border-radius: 100px;
-    padding: 20px;
+.homepic img {
+  height: 380px;
+  width: 97%;
+  border-radius: 100px;
+  padding: 20px;
 }
-.homedescription{
-    width: 40%;
-margin: 20px;
+.homedescription {
+  width: 30%;
+  margin: 20px;
+  
 }

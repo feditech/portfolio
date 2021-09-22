@@ -1,0 +1,13 @@
+.expertiseDiv{
+    width: 93%;
+    background-color: beige;
+    margin: 0 auto;
+    align-items: center;
+    padding: 40px;
+     
+    height: 100vh;
+}
+.expertiseDiv h1{
+    text-align: center;
+
+}
