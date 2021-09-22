@@ -6,3 +6,5 @@ function Testinomial(){
         </div>
     )
 }
+
+export default Testinomial;

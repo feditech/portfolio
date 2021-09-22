@@ -6,3 +6,5 @@ function Expertise(){
         </div>
     )
 }
+
+export default Expertise;

@@ -6,3 +6,5 @@ function Hireme(){
         </div>
     )
 }
+
+export default Hireme;
