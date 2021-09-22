@@ -8,7 +8,7 @@ function AppRouter() {
             <Route exact path="/" component={Home} />
             <Route exact path="/expertise" component={Expertise} />
             <Route exact path="/certification"  component={Certification}  />
-            <Route exact path="/testimonial"  component={Testinomial} />
+            <Route exact path="/testinomial"  component={Testinomial} />
             <Route exact path="/hireme" component={Hireme} />
         </Router>
     )

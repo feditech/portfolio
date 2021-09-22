@@ -1,4 +1,4 @@
-import {Header , Input} from '../../components'
+import {Header } from '../../components'
 function Home(){
     return(
         <div>

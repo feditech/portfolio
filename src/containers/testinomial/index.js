@@ -1,8 +1,11 @@
-function Testinomial(){
+import {Header } from '../../components'
 
+
+function Testinomial(){
     return(
         <div>
-            testinomial
+            <Header />
+            testinomial dddd
         </div>
     )
 }

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import './css/style.css'
 function Header() {
     return (
-        <div>
+        <div className="header">
             <ul className="navbar">
            
                 <li><Link to="/">Home</Link></li>
