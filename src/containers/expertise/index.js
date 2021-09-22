@@ -2,6 +2,7 @@ function Expertise(){
 
     return(
         <div>
+            Expertise
             
         </div>
     )

@@ -2,7 +2,7 @@ function Hireme(){
 
     return(
         <div>
-            
+            Hire me
         </div>
     )
 }

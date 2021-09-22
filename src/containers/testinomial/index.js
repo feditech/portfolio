@@ -2,7 +2,7 @@ function Testinomial(){
 
     return(
         <div>
-            
+            testinomial
         </div>
     )
 }
