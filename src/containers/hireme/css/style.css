@@ -1,0 +1,40 @@
+.hiremeDiv{
+    width: 93%;
+    background-color: beige;
+    margin: 0 auto;
+    align-items: center;
+    padding: 40px;
+     
+    height: 100vh;
+}
+.hiremeDiv h1{
+    text-align: center;
+
+}
+.input1{
+    width: 100%;
+    background-color:ghostwhite;
+    align-self: baseline;
+}
+
+.messageInput{
+    padding-top: 20px;
+}
+.input2{
+    margin-top: 30px;
+    width: 100%;
+    background-color:ghostwhite;
+    align-self: baseline;
+}
+.hirebtn{
+    width: 100%;
+    font-size: x-large;
+    margin: 20px 0;
+    background-color: beige;
+    border : none;
+    cursor: pointer;
+    
+}
+.btntext{
+    color: #a52a2a;
+}
