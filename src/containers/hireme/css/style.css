@@ -29,12 +29,13 @@
 .hirebtn{
     width: 100%;
     font-size: x-large;
-    margin: 20px 0;
+    margin: 0 auto;
     background-color: beige;
     border : none;
     cursor: pointer;
     
 }
 .btntext{
+    
     color: #a52a2a;
 }
