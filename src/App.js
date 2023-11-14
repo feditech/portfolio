@@ -1,12 +1,13 @@
-import './App.css';
+import { useTranslation } from 'react-i18next';
+import Navbar from './components/navbar';
 
-import AppRouter from './config/router';
 function App() {
+  const { i18n } = useTranslation()
   return (
-    <div className="App">
-      <AppRouter />
-    
- 
+    <div className="bg-primary "
+      style={{ direction: i18n.language === 'ar' ? 'rtl' : 'ltr' }}
+    >
+      <Navbar />
     </div>
   );
 }
