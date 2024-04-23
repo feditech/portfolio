@@ -20,25 +20,27 @@ const ThemeSwitcher = () => {
   }, [isDarkMode]);
   return (
     <div
-      className={`toggle cursor-pointer relative w-14 pt-[2px] h-[32px]  border-2 border-black rounded-3xl flex  items-center `}
+      className={`toggle cursor-pointer   overflow-hidden relative w-14 pt-[2px] h-[32px]  border-2 ${
+        isDarkMode ? "border-white" : "border-black"
+      } rounded-3xl flex  items-center `}
       onClick={toggleDarkMode}
     >
       <div
-        className={`icon-container ${
+        className={`icon-container absolute left-0 ${
           isDarkMode && "opacity-0"
-        }  absolute  left-0  transform ${
-          isDarkMode ? "translate-x-full " : "translate-x-0 "
-        } transition-transform duration-1000`}
+        }      transform ${
+          isDarkMode ? "translate-x-full " : "translate-x-0.5 "
+        } transition-transform duration-500`}
       >
         <img src={sun} alt="sun" className="w-7 h-7" />
       </div>
 
       <div
-        className={`icon-container absolute  left-0 transform  ${
+        className={`icon-container absolute left-0  transform  ${
           !isDarkMode && "opacity-0"
         }   ${
-          isDarkMode ? "translate-x-full " : "translate-x-0"
-        } transition-transform duration-1000`}
+          isDarkMode ? "translate-x-3/4 " : "translate-x-0"
+        } transition-transform duration-500`}
       >
         <img src={moon} alt="moon" className="w-7 h-7" />
       </div>
