@@ -3,6 +3,8 @@ import Navbar from "./components/navbar";
 import IntroSection from "./websections/intro";
 import AboutSection from "./websections/about";
 import { BrowserRouter } from "react-router-dom";
+import ServicesSection from "./websections/services";
+import PortfolioSection from "./websections/portfolio";
 
 function App() {
   const { i18n } = useTranslation();
@@ -15,6 +17,8 @@ function App() {
         <Navbar />
         <IntroSection />
         <AboutSection />
+        <ServicesSection />
+        <PortfolioSection />
       </div>
     </BrowserRouter>
   );
