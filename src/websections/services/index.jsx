@@ -4,12 +4,11 @@ import webdevicon from "../../assets/icons/services_icons/webdev.png";
 import mobiledevicon from "../../assets/icons/services_icons/appdev.png";
 import seoicon from "../../assets/icons/services_icons/seo.png";
 import dataanalysisicon from "../../assets/icons/services_icons/dataanalysis.png";
-
 const ServicesSection = () => {
   return (
     <div
       id="servicesection"
-      className="w-full py-16 px-16 flex flex-col items-center justify-center min-h-52 text-center bg-white text-black text-lg leading-relaxed"
+      className="w-full py-16 px-16 flex flex-col items-center justify-center min-h-52 text-center bg-yellow-100 text-black text-lg leading-relaxed"
     >
       <div className="w-4/6">
         <h1 className="text-2xl font-bold mb-4">Services</h1>
