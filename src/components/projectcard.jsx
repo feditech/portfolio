@@ -3,7 +3,7 @@ import linksvg from "../assets/images/portfolio_images/linksvg.svg";
 
 const ProjectCard = ({ icon, title, description, link }) => {
   return (
-    <div className={`flex-col`}>
+    <div className={`flex-col w-full`}>
       {/* icon */}
       <div className="h-48">
         <img

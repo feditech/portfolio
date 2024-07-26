@@ -5,6 +5,7 @@ import AboutSection from "./websections/about";
 import { BrowserRouter } from "react-router-dom";
 import ServicesSection from "./websections/services";
 import PortfolioSection from "./websections/portfolio";
+import SkillsSection from "./websections/skills";
 
 function App() {
   const { i18n } = useTranslation();
@@ -19,6 +20,7 @@ function App() {
         <AboutSection />
         <ServicesSection />
         <PortfolioSection />
+        <SkillsSection />
       </div>
     </BrowserRouter>
   );
