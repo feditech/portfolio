@@ -1,5 +1,4 @@
 import React from "react";
-import cover from "../../assets/images/cover.png";
 import devCover from "../../assets/images/DEV.png";
 
 const Right = () => {
@@ -8,6 +7,7 @@ const Right = () => {
       <img
         src={devCover}
         style={{  height: 500 }}
+        alt="feditech"
       />
     </div>
   );

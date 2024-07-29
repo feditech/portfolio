@@ -9,7 +9,7 @@ const PortfolioSection = () => {
       id="portfoliosection"
       className="w-full py-16 px-16 flex flex-col  min-h-52 text-center bg-red-100 text-black text-lg leading-relaxed"
     >
-      <div className="w-4/6">
+      <div className="">
         <h1 className="text-2xl font-bold mb-4">My Portfolio</h1>
         <p className="text-base">
           Explore the range of professional services I offer:
