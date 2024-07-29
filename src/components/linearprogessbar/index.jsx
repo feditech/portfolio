@@ -6,16 +6,27 @@ const ProgressBar = ({ value, name }) => {
   const progressBarRef = useRef(null);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const rect = progressBarRef.current.getBoundingClientRect();
-      if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
-        setIsVisible(true);
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false);
+        }
+      },
+      {
+        threshold: 0.1, // Trigger when 10% of the component is visible
       }
-    };
+    );
 
-    window.addEventListener("scroll", handleScroll);
+    if (progressBarRef.current) {
+      observer.observe(progressBarRef.current);
+    }
+
     return () => {
-      window.removeEventListener("scroll", handleScroll);
+      if (progressBarRef.current) {
+        observer.unobserve(progressBarRef.current);
+      }
     };
   }, []);
 
