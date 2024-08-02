@@ -1,7 +1,7 @@
 import React from "react";
-import ProjectCard from "../../components/projectcard";
 import doclinkcover from "../../assets/images/portfolio_images/doclinkcover.jpg";
 import floweriecover from "../../assets/images/portfolio_images/floweriecover.png";
+import ProjectCard from "../../components/cards/projectcard";
 
 const PortfolioSection = () => {
   return (
@@ -29,11 +29,7 @@ const PortfolioSection = () => {
           description="Event Management"
           link={"https://flowerie.vercel.app/"}
         />
-        <ProjectCard
-          icon={doclinkcover}
-          title="SEO"
-          description="REX."
-        />
+        <ProjectCard icon={doclinkcover} title="SEO" description="REX." />
       </div>
     </div>
   );

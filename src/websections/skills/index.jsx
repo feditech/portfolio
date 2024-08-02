@@ -1,5 +1,4 @@
 import React from "react";
-import ServicesCard from "../../components/servicescard";
 import ProgressBar from "../../components/linearprogessbar";
 const SkillsSection = () => {
   return (
@@ -13,7 +12,6 @@ const SkillsSection = () => {
           Explore the range of professional services I offer:
         </p>
       </div>
-
       <div className="w-4/5  grid grid-cols-1 sm:grid-cols-2 gap-x-20 gap-y-2 mt-10">
         <ProgressBar name={"ReactJs"} value={80} />
         <ProgressBar name={"Javascript"} value={70} />

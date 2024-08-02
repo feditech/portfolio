@@ -1,9 +1,9 @@
 import React from "react";
-import ServicesCard from "../../components/servicescard";
 import webdevicon from "../../assets/icons/services_icons/webdev.png";
 import mobiledevicon from "../../assets/icons/services_icons/appdev.png";
 import seoicon from "../../assets/icons/services_icons/seo.png";
 import dataanalysisicon from "../../assets/icons/services_icons/dataanalysis.png";
+import ServicesCard from "../../components/cards/servicescard";
 const ServicesSection = () => {
   return (
     <div

@@ -1,5 +1,5 @@
 import React from "react";
-import linksvg from "../assets/images/portfolio_images/linksvg.svg";
+import linksvg from "../../assets/images/portfolio_images/linksvg.svg";
 
 const ProjectCard = ({ icon, title, description, link }) => {
   return (
