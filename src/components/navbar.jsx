@@ -11,7 +11,7 @@ const Navbar = () => {
     <div className="fixed w-full p-2 px-16 flex justify-between items-center z-20 bg-secondary">
       <div className="w-48 text-xl">
         <h1 className="font-bold">
-          <span className="text-red-500 ">{t("Fahad ")}</span>
+          <span className="text-red-500 ">{t("Fahad")} </span>
           <span className="font-bold">{t("Sheikh")}</span>
         </h1>
       </div>
