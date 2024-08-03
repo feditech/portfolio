@@ -1,51 +1,40 @@
-import i18n from "i18next";
-
 import image1 from "./assets/images/portfolio_images/doclinkcover.jpg";
 import image2 from "./assets/images/portfolio_images/floweriecover.png";
-
 import webdevicon from "./assets/icons/services_icons/webdev.png";
 import mobiledevicon from "./assets/icons/services_icons/appdev.png";
 import seoicon from "./assets/icons/services_icons/seo.png";
 import dataanalysisicon from "./assets/icons/services_icons/dataanalysis.png";
 
-
-
 // "UI/UX Design": "تصميم واجهة المستخدم/تجربة المستخدم",
 //   "Creating intuitive and visually appealing designs that enhance user experience and engagement.": "إنشاء تصميمات بديهية وجذابة بصريًا تعزز تجربة المستخدم والمشاركة.",
 //   "API Development": "تطوير واجهة برمجة التطبيقات",
 //   "Designing and developing robust, secure, and scalable APIs to power your web and mobile applications.": "تصميم وتطوير واجهات برمجة التطبيقات قوية وآمنة وقابلة للتوسيع لتشغيل تطبيقات الويب والهاتف المحمول الخاصة بك.",
-  
+
 export const services = [
   {
     icon: webdevicon,
-    title: i18n.t("Web Development"),
-    description: i18n.t(
-      "Crafting responsive and user-friendly websites tailored to your needs, from design to deployment."
-    ),
+    title: "Web Development",
+    description:
+      "Crafting responsive and user-friendly websites tailored to your needs, from design to deployment.",
   },
   {
     icon: mobiledevicon,
-    title:  i18n.t("Mobile Development"),
-    description: i18n.t(
-      "Building native and cross-platform mobile applications with a focus on performance and user experience."
-    ),
+    title: "Mobile Development",
+    description:
+      "Building native and cross-platform mobile applications with a focus on performance and user experience.",
   },
   {
     icon: seoicon,
-    title: i18n.t("SEO"),
-    description: i18n.t(
-      "Optimizing your online presence to boost search engine rankings and drive organic traffic through strategic SEO techniques."
-    ),
+    title: "SEO",
+    description:
+      "Optimizing your online presence to boost search engine rankings and drive organic traffic through strategic SEO techniques.",
   },
   {
     icon: dataanalysisicon,
-    title: i18n.t("Data Analysis"),
-    description: i18n.t(
-      "Extracting meaningful insights from data using advanced analytics tools, helping you make data-driven decisions."
-    ),
+    title: "Data Analysis",
+    description:
+      "Extracting meaningful insights from data using advanced analytics tools, helping you make data-driven decisions.",
   },
-   
-
 ];
 
 export const testinomials = [

@@ -8,9 +8,9 @@ const ServicesCard = ({ icon, title, description }) => {
         <img src={icon} height={80} width={70} />
       </div>
       {/* title */}
-      <div className="mt-3 text-left text-xxl font-semibold">{title}</div>
+      <div className="mt-3 text-xxl font-semibold">{title}</div>
       {/* description */}
-      <div className="mt-1 text-left text-sm">{description}</div>
+      <div className="mt-1  text-sm">{description}</div>
     </div>
   );
 };

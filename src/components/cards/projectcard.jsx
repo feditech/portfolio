@@ -12,10 +12,10 @@ const ProjectCard = ({ icon, title, description, link }) => {
         />
       </div>
       {/* title */}
-      <div className="mt-3 text-left text-xxl font-semibold">{title}</div>
+      <div className="mt-3  text-xxl font-semibold">{title}</div>
       {/* description */}
       <div className="flex justify-between ">
-        <div className="mt-1 text-left text-sm">{description}</div>
+        <div className="mt-1  text-sm">{description}</div>
         <a
           href={link}
           target="_blank"
