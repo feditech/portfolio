@@ -21,7 +21,7 @@ const FooterSection = () => {
           </ScrollLink>
         </li>
         <li>
-          <p className="text-3xl text-red-500 font-bold">Fahad Sheikh</p>
+          <p className="text-3xl text-red-500 font-bold">{t("Fahad Sheikh")}</p>
         </li>
         <li className="cursor-pointer">
           <ScrollLink to="portfoliosection" smooth={true} duration={500}>
@@ -35,14 +35,6 @@ const FooterSection = () => {
           </ScrollLink>
         </li>
       </ul>
-      {/* <div className="w-4/5  grid grid-cols-1 sm:grid-cols-2 gap-x-20 gap-y-2 mt-10">
-        <ProgressBar name={"ReactJs"} value={80} />
-        <ProgressBar name={"Javascript"} value={70} />
-        <ProgressBar name={"Redux"} value={80} />
-        <ProgressBar name={"NextJs"} value={70} />
-        <ProgressBar name={"AWS"} value={70} />
-        <ProgressBar name={"NodeJs"} value={60} />
-      </div> */}
     </div>
   );
 };
