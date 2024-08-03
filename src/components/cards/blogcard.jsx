@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 const BlogCard = ({ icon, title, description = "", link, date }) => {
   const { t } = useTranslation();
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col relative">
       {/* icon */}
       <div className="h-48">
         <img
@@ -15,8 +15,12 @@ const BlogCard = ({ icon, title, description = "", link, date }) => {
       <p className="text-sm">{date}</p>
       {/* title */}
       <div className="text-xxl font-semibold">{title}</div>
-      {/* description */}
-      <div className="mt-1 text-sm">{description}</div>
+
+      <div className="mt-1 text-sm h-20">
+        {description.length > 200
+          ? `${description.substring(0, 200)}...`
+          : description}
+      </div>
       <a
         href={link}
         target="_blank"

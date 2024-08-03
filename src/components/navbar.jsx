@@ -31,12 +31,24 @@ const Navbar = () => {
             {t("Portfolio")}
           </ScrollLink>
         </li>
-        <li>{t("Blog")}</li>
+
+        <li className="cursor-pointer">
+          <ScrollLink to="blogssection" smooth={true} duration={500}>
+            {t("Blogs")}
+          </ScrollLink>
+        </li>
       </ul>
       <div className="w-48 flex items-center gap-2">
         <LanguageSwitcher />
         <ThemeSwitcher />
-        <button className="">{t("Lets Talk")}</button>
+        <ScrollLink
+          className="cursor-pointer"
+          to="contactsection"
+          smooth={true}
+          duration={500}
+        >
+          {t("Lets Talk")}
+        </ScrollLink>
       </div>
     </div>
   );

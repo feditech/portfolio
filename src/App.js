@@ -8,6 +8,8 @@ import PortfolioSection from "./websections/portfolio";
 import SkillsSection from "./websections/skills";
 import TestinomialSection from "./websections/testinomial";
 import BlogsSection from "./websections/blogs";
+import ContactSection from "./websections/contact";
+import FooterSection from "./websections/footer";
 
 function App() {
   const { i18n } = useTranslation();
@@ -25,6 +27,8 @@ function App() {
         <SkillsSection />
         <TestinomialSection />
         <BlogsSection />
+        <ContactSection />
+        <FooterSection />
       </div>
     </BrowserRouter>
   );
