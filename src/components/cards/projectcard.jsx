@@ -7,6 +7,7 @@ const ProjectCard = ({ icon, title, description, link }) => {
       {/* icon */}
       <div className="h-48">
         <img
+          alt={title}
           src={icon}
           style={{ height: "100%", width: "100%", objectFit: "cover" }}
         />
@@ -19,9 +20,10 @@ const ProjectCard = ({ icon, title, description, link }) => {
         <a
           href={link}
           target="_blank"
+          rel="noreferrer"
           className="h-8 w-8 flex items-center justify-center rounded-full bg-red-400"
         >
-          <img src={linksvg} style={{ height: "70%", width: "60%" }} />
+          <img alt={title} src={linksvg} style={{ height: "70%", width: "60%" }} />
         </a>
       </div>
     </div>

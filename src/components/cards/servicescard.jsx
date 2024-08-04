@@ -5,7 +5,7 @@ const ServicesCard = ({ icon, title, description }) => {
     <div className="flex-col">
       {/* icon */}
       <div className="">
-        <img src={icon} height={80} width={70} />
+        <img alt={title} src={icon} height={80} width={70} />
       </div>
       {/* title */}
       <div className="mt-3 text-xxl font-semibold">{title}</div>

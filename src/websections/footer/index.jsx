@@ -1,5 +1,4 @@
 import React from "react";
-import ProgressBar from "../../components/linearprogessbar";
 import { Link as ScrollLink } from "react-scroll";
 import { useTranslation } from "react-i18next";
 const FooterSection = () => {
