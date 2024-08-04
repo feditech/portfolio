@@ -1,8 +1,7 @@
 import React from "react";
-import doclinkcover from "../../assets/images/portfolio_images/doclinkcover.jpg";
-import floweriecover from "../../assets/images/portfolio_images/floweriecover.png";
 import ProjectCard from "../../components/cards/projectcard";
 import { useTranslation } from "react-i18next";
+import { projects } from "../../global";
 
 const PortfolioSection = () => {
   const { t } = useTranslation();
@@ -17,19 +16,15 @@ const PortfolioSection = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-8 mt-10">
-        <ProjectCard
-          icon={doclinkcover}
-          title="DocLink"
-          description="Healthcare Website"
-          link={"https://doclink-web-updated.vercel.app/"}
-        />
-        <ProjectCard
-          icon={floweriecover}
-          title="Flowerie"
-          description="Event Management"
-          link={"https://flowerie.vercel.app/"}
-        />
-        <ProjectCard icon={doclinkcover} title="SEO" description="REX." />
+        {projects.map((project, index) => (
+          <ProjectCard
+            key={index}
+            icon={project.icon}
+            title={t(project.title)}
+            description={t(project.description)}
+            link={project.link}
+          />
+        ))}
       </div>
     </div>
   );

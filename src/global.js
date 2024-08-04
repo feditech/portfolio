@@ -4,11 +4,8 @@ import webdevicon from "./assets/icons/services_icons/webdev.png";
 import mobiledevicon from "./assets/icons/services_icons/appdev.png";
 import seoicon from "./assets/icons/services_icons/seo.png";
 import dataanalysisicon from "./assets/icons/services_icons/dataanalysis.png";
-
-// "UI/UX Design": "تصميم واجهة المستخدم/تجربة المستخدم",
-//   "Creating intuitive and visually appealing designs that enhance user experience and engagement.": "إنشاء تصميمات بديهية وجذابة بصريًا تعزز تجربة المستخدم والمشاركة.",
-//   "API Development": "تطوير واجهة برمجة التطبيقات",
-//   "Designing and developing robust, secure, and scalable APIs to power your web and mobile applications.": "تصميم وتطوير واجهات برمجة التطبيقات قوية وآمنة وقابلة للتوسيع لتشغيل تطبيقات الويب والهاتف المحمول الخاصة بك.",
+import doclinkcover from "./assets/images/portfolio_images/doclinkcover.jpg";
+import floweriecover from "./assets/images/portfolio_images/floweriecover.png";
 
 export const services = [
   {
@@ -34,6 +31,51 @@ export const services = [
     title: "Data Analysis",
     description:
       "Extracting meaningful insights from data using advanced analytics tools, helping you make data-driven decisions.",
+  },
+  // {
+  //   icon: webdevicon,
+  //   title: "UI/UX Design",
+  //   description:
+  //     "Creating intuitive and visually appealing designs that enhance user experience and engagement.",
+  // },
+  // {
+  //   icon: mobiledevicon,
+  //   title: "API Development",
+  //   description:
+  //     "Designing and developing robust, secure, and scalable APIs to power your web and mobile applications.",
+  // },
+  // {
+  //   icon: webdevicon,
+  //   title: "AWS",
+  //   description:
+  //     "Deploying and managing your applications on the cloud with AWS services, ensuring scalability and reliability.",
+  // },
+  // {
+  //   icon: mobiledevicon,
+  //   title: "Blockchain",
+  //   description:
+  //     "Leveraging blockchain technology to build secure and transparent solutions for your business.",
+  // },
+];
+
+export const projects = [
+  {
+    icon: doclinkcover,
+    title: "DocLink",
+    description: "Healthcare Website",
+    link: "https://doclink-web-updated.vercel.app/",
+  },
+  {
+    icon: floweriecover,
+    title: "Flowerie",
+    description: "Event Management",
+    link: "https://flowerie.vercel.app/",
+  },
+  {
+    icon: doclinkcover,
+    title: "Sleek Ride",
+    description: "",
+    link: "",
   },
 ];
 

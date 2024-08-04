@@ -6,7 +6,7 @@ import ThemeSwitcher from "./themeSwitcher";
 import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
     <div className="fixed w-full p-2 px-16 flex justify-between items-center z-20 bg-primary">
       <div className="w-48 text-xl">

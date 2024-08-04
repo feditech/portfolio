@@ -1,5 +1,4 @@
 import React from "react";
-import devCover from "../../assets/images/DEV.png";
 
 const Right = () => {
   const handleSubmit = (e) => {
