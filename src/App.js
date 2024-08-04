@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
       <div
-        className="bg-primary dark:bg-primary-dark dark:text-white "
+        className=""
         style={{ direction: i18n.language === "ar" ? "rtl" : "ltr" }}
       >
         <Navbar />

@@ -7,7 +7,8 @@ export const primary = {
 }
 
 export const secondary = {
-    DEFAULT: '#FFD4D0',
+    DEFAULT: '#000000',
     light: '#757de8',
     dark: '#002984',
 }
+

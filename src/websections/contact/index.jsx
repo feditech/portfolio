@@ -4,7 +4,7 @@ import Right from './right'
 
 const ContactSection = () => {
     return (
-        <div id="contactsection" className='w-full p-2 px-16 py-20 flex justify-around max-h-screen overflow-hidden  ' >
+        <div id="contactsection" className='bg-primary w-full p-2 px-16 py-20 flex justify-around max-h-screen overflow-hidden  ' >
             <Left />
             <Right />
 

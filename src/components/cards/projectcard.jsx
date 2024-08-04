@@ -23,7 +23,11 @@ const ProjectCard = ({ icon, title, description, link }) => {
           rel="noreferrer"
           className="h-8 w-8 flex items-center justify-center rounded-full bg-red-400"
         >
-          <img alt={title} src={linksvg} style={{ height: "70%", width: "60%" }} />
+          <img
+            alt={title}
+            src={linksvg}
+            style={{ height: "70%", width: "60%" }}
+          />
         </a>
       </div>
     </div>

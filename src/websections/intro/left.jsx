@@ -20,7 +20,7 @@ const Left = () => {
         </p>
       </div>
       <div className="flex">
-        <button className="bg-black text-white p-2 px-6 rounded-sm text-xl">
+        <button className="bg-secondary text-white p-2 px-6 rounded-sm text-xl">
           {t("Hire Me")}
         </button>
       </div>

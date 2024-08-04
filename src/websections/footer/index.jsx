@@ -6,7 +6,7 @@ const FooterSection = () => {
   return (
     <div
       id="servicesection"
-      className="w-full py-16 px-16 flex flex-col items-center justify-center min-h-52 text-center bg-black text-white text-lg leading-relaxed"
+      className="w-full py-16 px-16 flex flex-col items-center justify-center min-h-52 text-center bg-secondary text-white text-lg leading-relaxed"
     >
       <ul className="flex gap-5 font-semibold items-center">
         <li className="cursor-pointer">

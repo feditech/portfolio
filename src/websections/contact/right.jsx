@@ -24,7 +24,7 @@ const Right = () => {
           placeholder="Message"
           className="h-32 mb-4 p-4  outline-none resize-none"
         ></textarea>
-        <button type="submit" className="h-12 w-40 bg-black text-white ">
+        <button type="submit" className="h-12 w-40 bg-secondary text-white ">
           Submit
         </button>
       </form>

@@ -9,7 +9,7 @@ const PortfolioSection = () => {
   return (
     <div
       id="portfoliosection"
-      className="w-full py-16 px-16 flex flex-col  min-h-52  bg-red-100 text-black text-lg leading-relaxed"
+      className="w-full py-16 px-16 flex flex-col  min-h-52  bg-primary text-black text-lg leading-relaxed"
     >
       <div className="text-center">
         <h1 className="text-2xl font-bold mb-4">{t("My Portfolio")}</h1>

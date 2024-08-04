@@ -6,7 +6,7 @@ const TestinomialSection = () => {
   return (
     <div
       id="testinomialsection"
-      className="w-full py-16 px-16 flex flex-col items-center justify-center min-h-52 text-center bg-red-100 text-black text-lg leading-relaxed "
+      className="w-full py-16 px-16 flex flex-col items-center justify-center min-h-52 text-center bg-primary text-black text-lg leading-relaxed "
     >
       <div className="">
         <h1 className="text-2xl font-bold mb-4  ">Testinomial</h1>

@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <div
       id="aboutsection"
-      className="w-full py-16 px-16 flex flex-col items-center justify-center min-h-52 text-center bg-black text-white text-lg leading-relaxed "
+      className="w-full py-16 px-16 flex flex-col items-center justify-center min-h-52 text-center bg-secondary text-white text-lg leading-relaxed "
     >
       <div className="w-4/6">
         <h1 className="text-2xl font-bold mb-4  ">{t("About Me")}</h1>
